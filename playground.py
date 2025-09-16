@@ -1,4 +1,3 @@
-import math
 score1 = float(input('Enter score on Exam 1 (out of 50):\n'))
 score2 = float(input('Enter score on Exam 2 (out of 50):\n'))
 score3 = float(input('Enter score on Exam 3 (out of 50):\n'))
