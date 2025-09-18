@@ -14,3 +14,13 @@ def calc_total_inches(num_feet, num_inches):
 feet = int(input())
 inches = int(input())
 print('Total inches:', calc_total_inches(feet, inches))
+
+def calc_pyramid_volume(base_length, base_width, pyramid_height):
+    pyramid_area = length * width
+    pyramid_volume = (pyramid_area * height) / 3
+    return pyramid_volume
+
+length = float(input())
+width = float(input())
+height = float(input())
+print(f'Volume for {length} {width} {height} is: {calc_pyramid_volume(length, width, height):.2f}')
