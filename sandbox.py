@@ -26,7 +26,7 @@ minutes = int(input())
 hours = int(input())
 
 hours_in_seconds = (hours * 60) * 60
-minutes_in_seconds =(minutes * 60)
+minutes_in_seconds = (minutes * 60)
 total_time = hours_in_seconds + minutes_in_seconds + seconds
 print(total_time)
 
